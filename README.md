@@ -21,26 +21,3 @@ WriteHub is a modern, responsive blog application built using the MERN stack (Mo
 **Tools:** VSCode, Postman, Git/GitHub
 
 ---
-
-## Project Structure
-writehub/
-├── backend/
-│   ├── controllers/       # API logic
-│   ├── models/            # Mongoose models
-│   ├── routes/            # Express routes
-│   ├── middleware/        # Auth middleware
-│   ├── server.js          # Entry point
-├── client/
-│   ├── src/
-│   │   ├── components/    # Reusable UI components
-│   │   ├── pages/         # Pages like Home, Blog, Login, Signup
-│   │   ├── hooks/         # Custom React hooks
-│   │   ├── context/       # Context API (optional)
-│   │   ├── App.js         # Main component with Router
-│   │   ├── index.js       # React entry point
-│   │   └── styles/        # ShadCN custom styles
-├── package.json
-└── README.md
-
----
-
