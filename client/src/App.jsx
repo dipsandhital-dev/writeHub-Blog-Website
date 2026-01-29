@@ -1,14 +1,17 @@
 import React from 'react'
-import { Route, Routes } from 'react-router-dom'
-import Home from './pages/Home'
-import Blogs from './pages/Blogs'
+import {Routes, Route} from 'react-router-dom'
+import Home from './pages/Home.jsx'
+import Blogs from './pages/Blogs.jsx'
+
 
 const App = () => {
   return (
+    <>
     <Routes>
-      <Route path='/' element={<Home/>}/>
-      <Route path='/blog/' element={<Blogs/>}/>
+      <Route  path='/' element= {<Home/>} />
+      <Route path='/blogs' element= {<Blogs/>}/> 
     </Routes>
+    </>
   )
 }
 
